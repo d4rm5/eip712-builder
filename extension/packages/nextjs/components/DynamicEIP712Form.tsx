@@ -17,7 +17,6 @@ const DynamicEIP712Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted with values:', fields);
-    // Here you would typically send the data to a server or perform other actions
   };
 
   return (
