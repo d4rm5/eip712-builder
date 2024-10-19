@@ -10,8 +10,8 @@ npx create-eth@latest -e d4rm5/eip712-builder
 
 ## To-do
 
-- [ x ] Generate signature types with dynamic form
-- [ x ] Generate message form dynamiclly from primary type
+- [x] Generate signature types with dynamic form
+- [x] Generate message form dynamiclly from primary type
 - [ ] Handle message form changes
 - [ ] Handle message form submit (signature)
 - [ ] Display signature
