@@ -5,7 +5,7 @@ import { Formik, Form, Field } from 'formik';
 import {useSignTypedData} from "wagmi";
 import {generateInitialValues} from '~~/utils/generateInitialValues';
 import {renderFields} from '../_utils/renderFields';
-import {EIP_712_TYPES, EIP_712_DOMAIN} from '~~/app/eip712-builder/data';
+import {EIP_712_TYPES, EIP_712_DOMAIN} from '../_utils/data';
 import { PencilSquareIcon } from "@heroicons/react/24/outline";
 
 const EIP712Form = () => {
