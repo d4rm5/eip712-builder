@@ -8,10 +8,8 @@ export const generateInitialValues = (
 
   typeDefinition.forEach((field) => {
     if (EIP_712_TYPES[field.type as keyof typeof EIP_712_TYPES]) {
-      // Tipo anidado
       initialValues[field.name] = generateInitialValues(field.type as keyof typeof EIP_712_TYPES);
     } else {
-      // Tipo primitivo
       initialValues[field.name] = "";
     }
   });
