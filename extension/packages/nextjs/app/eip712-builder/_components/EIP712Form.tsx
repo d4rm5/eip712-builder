@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Formik, Form, Field } from 'formik';
 import {useSignTypedData} from "wagmi";
-import {generateInitialValues} from '~~/utils/generateInitialValues';
+import { generateInitialValues } from "../_utils/generateInitialValues";
 import {renderFields} from '../_utils/renderFields';
 import {EIP_712_TYPES, EIP_712_DOMAIN} from '../_utils/data';
 import { PencilSquareIcon } from "@heroicons/react/24/outline";
